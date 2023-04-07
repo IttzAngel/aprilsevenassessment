@@ -9,11 +9,13 @@ public class Main {
         TheCase thecase = new TheCase("Windows XP", "Microsoft", "220 Volts", new Dimensions(200, 200, 100));
         PC pc = new PC();
 
+        pc.description();
+
         thecase.pressPowerButton();
         monitor.drawPixel(10, 10, "Purple");
         motherboard.loadProgram("Photoshop");
 
-        pc.description();
+
 
 
 
