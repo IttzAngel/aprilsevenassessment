@@ -13,6 +13,8 @@ public class Main {
         monitor.drawPixel(10, 10, "Purple");
         motherboard.loadProgram("Photoshop");
 
+        pc.description();
+
 
 
 
