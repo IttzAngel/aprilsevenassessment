@@ -18,5 +18,13 @@ public class TheCase {
         System.out.println("Power button pressed");
     }
 
-
+    @Override
+    public String toString() {
+        return "TheCase{" +
+                "model='" + model + '\'' +
+                ", manufacturer='" + manufacturer + '\'' +
+                ", powerSupply='" + powerSupply + '\'' +
+                ", dimensions=" + dimensions +
+                '}';
+    }
 }

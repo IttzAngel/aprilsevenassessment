@@ -21,6 +21,6 @@ public class PC {
     }
 
     public void description(){
-        System.out.println("Welcome to worst buy below is the description of the pc on sale today" + monitor + thecase + motherboard);
+        System.out.println("Welcome to worst buy below is the description of the pc on sale today" + this.monitor + this.thecase + this.motherboard);
     }
 }

@@ -16,9 +16,12 @@ public class Monitor {
         System.out.println("Drawing pixel at " + x + "," + y + " " + " in color " + color);
     }
 
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Monitor{" +
+                "modelNumber=" + modelNumber +
+                ", manufacturerName='" + manufacturerName + '\'' +
+                ", resolution=" + resolution +
+                '}';
+    }
 }

@@ -11,6 +11,8 @@ public class Main {
 
         pc.description();
 
+
+
         thecase.pressPowerButton();
         monitor.drawPixel(10, 10, "Purple");
         motherboard.loadProgram("Photoshop");
