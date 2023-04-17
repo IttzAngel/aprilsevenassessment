@@ -2,10 +2,10 @@ package aprilsevenassessment;
 
 public class TheCase {
 
-    private String model;
-    private String manufacturer;
-    private String powerSupply;
-    private Dimensions dimensions;
+    private static String model;
+    private static String manufacturer;
+    private static String powerSupply;
+    private static Dimensions dimensions;
 
     public TheCase(String model, String manufacturer, String powerSupply, Dimensions dimensions) {
         this.model = model;
@@ -14,12 +14,11 @@ public class TheCase {
         this.dimensions = dimensions;
     }
 
-    public void pressPowerButton(){
+    public static void pressPowerButton(){
         System.out.println("Power button pressed");
     }
 
-    @Override
-    public String toString() {
+    public static String caseDescription() {
         return "TheCase{" +
                 "model='" + model + '\'' +
                 ", manufacturer='" + manufacturer + '\'' +
@@ -27,4 +26,14 @@ public class TheCase {
                 ", dimensions=" + dimensions +
                 '}';
     }
+
+//    @Override
+//    public String toString() {
+//        return "TheCase{" +
+//                "model='" + model + '\'' +
+//                ", manufacturer='" + manufacturer + '\'' +
+//                ", powerSupply='" + powerSupply + '\'' +
+//                ", dimensions=" + dimensions +
+//                '}';
+//    }
 }
